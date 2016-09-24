@@ -18,12 +18,13 @@ Fork that adds functionality and extends to Roots/Sage theme. Original repo is s
 * Added new editor file to add extra TinyMCE custom capabilities - commented out for now (web/app/themes/sage/lib/editor.php)
 * Added KSS webpack plugin for living styleguide
 * Added submodule for KSS workflow called ed-kss-template
+* Removed jQuery
 
 ## [Sage > ED KSS Template Submodule](https://dleggett@bitbucket.org/enginedigital/ed-kss-template.git)
 
 Soon to be custom KSS template built into the Sage WP theme webpack workflow.
 
-* No changes just yet. Soon to come.
+* Added webpack plugin dependency for live stylesheets.
 
 # Fork Instructions (follow these for initial clone setup, more original Bedrock directions to follow below)
 
