@@ -49,28 +49,23 @@ Upstream details: Both this Kit and the Sage submodule are set as upstreams. To 
 
 ## Setup instructions
 
+You must be on PHP 5.6 minimum!
+
 * cd into root directory
 * run composer install
 * setup new MAMP and point to web dir
 * setup a local database
-* copy .env.sample -> .env and enter credentials and salts
+* copy .env.sample -> .env and enter credentials and remember to add your salts!
 * cd into sage theme root directory and run npm install, then run composer install
 * load up your Mamp dev URL in browser and run WP setup
 * log in and choose Appearance and set it to Sage Starter Theme
-* To use BrowserSync during npm start you need to update devUrl at the bottom of web/assets/config.json to reflect your local development hostname that was set in your .env file
-* By default, BrowserSync will use webpack's HMR, which won't trigger a page reload in your browser. If you would like to force BrowserSync to reload the page whenever certain file types are edited, then add them to watch in web/assets/config.json.
-
-```json
-...
-  "watch": [
-    "assets/scripts/**/*.js",
-    "templates/**/*.php",
-    "src/**/*.php"
-  ],
-...
-```
+* To use BrowserSync during npm start you need to update devUrl at the bottom of web/app/themes/sage/assets/build/config.json to reflect your local development hostname that was set in your .env file
 
 ## Workflow instructions
+
+You must be on the latest stable node version!
+
+The following workflow commands should be run from the sage theme root folder.
 
 * npm start — Compile assets when file changes are made, start BrowserSync session
 * npm run build — Compile and optimize the files in your assets directory
