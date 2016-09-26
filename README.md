@@ -8,6 +8,8 @@ Fork that adds functionality and extends to Roots/Bedrock. We use this as a star
 * Added WP SEO as a requirement
 * Added submodule to Sage theme
 
+NOTE: Typically we use [ACF Pro](https://www.advancedcustomfields.com/) which cannot be included in Composer since it is a pay for service.
+
 ## [WP Starter > Sage Submodule](https://github.com/devinle/sage)
 
 Fork that adds functionality and extends to Roots/Sage theme. Original repo is set as Upstream and can be sync'd back if necessary.
