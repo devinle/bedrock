@@ -8,7 +8,13 @@ Fork that adds functionality and extends to Roots/Bedrock. We use this as a star
 * Added WP SEO as a requirement
 * Added submodule to Sage theme
 
-NOTE: Typically we use [ACF Pro](https://www.advancedcustomfields.com/) which cannot be included in Composer since it is a pay for service.
+NOTE: Typically we use [ACF Pro](https://www.advancedcustomfields.com/) which is included in composer. To use ACF you must add the following to your .env file
+
+* ACF_PRO_KEY=YOUR_KEY_HERE
+
+NOTE: We also use wp-migrate-db-pro and wp-offload-s3-pro. These have also been added to the composer file. But before running, you must update the composer file and replace all occurances of the following with their associated values:
+
+* ?licence_key=<YOUR_KEY_HERE>&site_url=<yoursite.com>
 
 ## [WP Starter > Sage Submodule](https://github.com/devinle/sage)
 
