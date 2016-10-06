@@ -174,7 +174,8 @@
     "deliciousbrains/wp-offload-s3-pro": "*",
     "deliciousbrains/wp-offload-s3-assets": "*",
     "deliciousbrains/wp-offload-s3-edd": "*",
-    "deliciousbrains/wp-offload-s3-woocommerce": "*"
+    "deliciousbrains/wp-offload-s3-woocommerce": "*",
+    "deliciousbrains/wp-amazon-web-services":"^1.0.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
