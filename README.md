@@ -17,6 +17,11 @@ To use ACF you must add the following to your .env file
 To use WP Migrate DB Pro you must update the following settings in your newly renamed composer.json file for all occurances of Migrate DB packages.
 * ?licence_key=YOUR_KEY_HERE&site_url=yoursite.com
 
+Deployment
+* Easy development environments with [Vagrant](http://www.vagrantup.com/)
+* Easy server provisioning with [Ansible](http://www.ansible.com/) (Ubuntu 16.04, PHP 7.1, MariaDB)
+* One-command deploys
+
 To use WP Offload S3 you must update the following settings in your newly renamed composer.json file for all occurances of S3 packages.
 * ?licence_key=YOUR_KEY_HERE&site_url=yoursite.com
 

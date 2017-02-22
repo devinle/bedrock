@@ -1,3 +1,18 @@
+### 1.7.5: 2017-01-26
+
+* Update to WordPress 4.7.2
+
+### 1.7.4: 2017-01-11
+
+* Update to WordPress 4.7.1
+* Add Optional variables to `.env.example`
+* Remove unnecessary gitignore rules ([#286](https://github.com/roots/bedrock/pull/286))
+
+### 1.7.3: 2016-12-06
+
+* Update to WordPress 4.7
+* Default `WP_ENV` to `production` instead of `development` ([#277](https://github.com/roots/bedrock/pull/277))
+
 ### 1.7.2: 2016-09-07
 
 * Update to WordPress 4.6.1
